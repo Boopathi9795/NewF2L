@@ -28,14 +28,14 @@ class Var(object):
     GROUP_ID = [
         int(ch) for ch in (os.environ.get("GROUP_ID", f"{PERMANENT_GROUP}")).split()
     ]
-    SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "")
+    SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "krownlinks.com")
     SHORTLINK_API1 = os.environ.get(
-        "SHORTLINK_API1", ""
+        "SHORTLINK_API1", "09c3580894bb9225404c58fe672a9677dc9a04ff"
     )
 
-    SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "")
+    SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "krownlinks.com")
     SHORTLINK_API2 = os.environ.get(
-        "SHORTLINK_API2", ""
+        "SHORTLINK_API2", "09c3580894bb9225404c58fe672a9677dc9a04ff"
     )
     LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", "-1001692749899"))
     FORCE_SUB = os.environ.get("FORCE_SUB", "-1002400430988")
