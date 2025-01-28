@@ -211,16 +211,16 @@ async def channel_receive_handler(bot, broadcast):
             Var.SHORTLINK_URL2, Var.SHORTLINK_API2, hs_stream_link
         )
 
-        hs_online_link = f"{Var.URL}{str(log_msg.id)}/?MadxMoviez={get_hash(log_msg)}"
+        hs_online_link = f"{Var.URL}{str(log_msg.id)}/?Phoniex={get_hash(log_msg)}"
         online_link = await get_shortlink(
             Var.SHORTLINK_URL2, Var.SHORTLINK_API2, hs_online_link
         )
 
         caption = (
-            f"<b>{file_name}"
-            f"🗳 Fast Stream Link : <a href='{stream_link}'>DOWNLOAD 🚀</a>\n\n"
-            f" Uploaded by @Phoniex</b>"
-        )
+        f"<b>@Kutty_LinkZz {file_name}\n\n"
+        f"➠ Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs : {stream_link}\n\n"
+        f"𓆩 Mᴏᴠɪᴇ Rᴇǫ 𝟸𝟺x𝟽 ☛ <a href='https://t.me/KuttyLinkZzRequest'>Cʟɪᴄᴋ Hᴇʀᴇ</a> 𓆪</b>"
+    )
 
         await bot.send_cached_media(
             caption=caption, chat_id=chat_id, file_id=media.file_id
