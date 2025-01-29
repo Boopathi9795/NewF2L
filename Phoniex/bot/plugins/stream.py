@@ -205,13 +205,13 @@ async def channel_receive_handler(bot, broadcast):
         log_msg = await broadcast.forward(chat_id=Var.BIN_CHANNEL)
 
         hs_stream_link = (
-            f"{Var.URL}exclusive/{str(log_msg.id)}/?Phoniex={get_hash(log_msg)}"
+            f"{Var.URL}exclusive/{str(log_msg.id)}/?KuttyBots={get_hash(log_msg)}"
         )
         stream_link = await get_shortlink(
             Var.SHORTLINK_URL2, Var.SHORTLINK_API2, hs_stream_link
         )
 
-        hs_online_link = f"{Var.URL}{str(log_msg.id)}/?Phoniex={get_hash(log_msg)}"
+        hs_online_link = f"{Var.URL}{str(log_msg.id)}/?KuttyBots={get_hash(log_msg)}"
         online_link = await get_shortlink(
             Var.SHORTLINK_URL2, Var.SHORTLINK_API2, hs_online_link
         )
