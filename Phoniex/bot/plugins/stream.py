@@ -218,7 +218,8 @@ async def channel_receive_handler(bot, broadcast):
 
         caption = (
         f"<b>@Kutty_LinkZz {file_name}\n\n"
-        f"➠ Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs : {stream_link}\n\n"
+        f"➠ Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs : 
+        {stream_link}\n\n"
         f"𓆩 Mᴏᴠɪᴇ Rᴇǫ 𝟸𝟺x𝟽 ☛ <a href='https://t.me/KuttyLinkZzRequest'>Cʟɪᴄᴋ Hᴇʀᴇ</a> 𓆪</b>"
     )
 
