@@ -20,7 +20,7 @@ class Var(object):
         "CUSTOM_FILE_CAPTION", "<b>ɴᴀᴍᴇ : {file_name}\n\nꜱɪᴢᴇ : {file_size}</b>"
     )
     BIN_CHANNEL = int(getenv("BIN_CHANNEL", "-1002087362405"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001692749899"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087362405"))
     PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP", "-1002087362405")
 
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002087362405"))
@@ -37,7 +37,7 @@ class Var(object):
     SHORTLINK_API2 = os.environ.get(
         "SHORTLINK_API2", "09c3580894bb9225404c58fe672a9677dc9a04ff"
     )
-    LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", "-1001692749899"))
+    LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", "-1002192881598"))
     FORCE_SUB = os.environ.get("FORCE_SUB", "-1002400430988")
     PORT = int(getenv("PORT", "8080"))
     BIND_ADRESS = str(getenv("WEB_SERVER_BIND_ADDRESS", "0.0.0.0"))
